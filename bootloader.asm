@@ -52,7 +52,7 @@ keyboard:
 		done:
 			mov ax, 0
 			int 16h
-			; uneficient way
+			; ineficient way
 			jmp segments
 
 		printchar:
